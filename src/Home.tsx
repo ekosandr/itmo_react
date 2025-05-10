@@ -8,7 +8,7 @@ export default function Home() {
   const [data, setData] = useState<User[] | null>(null);
 
   useEffect(() => {
-    const user = fetch("http://api.github.com/users?per_page=100");
+    const user = fetch("https://api.github.com/users?per_page=100");
     user
       .then((res) => res.json())
       // .then((res) => console.log(811, res))
