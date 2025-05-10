@@ -1,0 +1,11 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.block {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid gray;
+  gap: 8px;
+}
